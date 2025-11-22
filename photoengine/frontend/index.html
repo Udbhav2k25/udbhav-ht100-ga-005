@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Visual Narrator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>📖 The Visual Narrator</h1>
+        <p>Upload images → Arrange them → Generate story</p>
+    </header>
+
+    <main>
+        <div class="upload-section">
+            <input type="file" id="imageInput" multiple accept="image/*">
+        </div>
+
+        <div id="imageContainer" class="image-grid"></div>
+
+        <button id="generateBtn" class="btn">Generate Story</button>
+
+        <section class="story-section">
+            <h2>Generated Story</h2>
+            <p id="storyText">Your story will appear here...</p>
+        </section>
+    </main>
+
+    <footer>
+        Built for Hackathon ✨
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
